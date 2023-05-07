@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        >-->
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/btn1"
+                android:onClick="Check"
+                android:textSize="30sp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/btn2"
+                android:textSize="30sp"
+                android:layout_weight="1"
+                android:layout_marginLeft="11dp"
+                android:onClick="Check" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/btn3"
+                android:textSize="30sp"
+                android:layout_weight="1"
+                android:layout_marginLeft="11dp"
+                android:onClick="Check" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/btn4"
+                android:textSize="30sp"
+                android:layout_weight="1"
+                android:onClick="Check" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/btn5"
+                android:textSize="30sp"
+                android:layout_weight="1"
+                android:layout_marginLeft="11dp"
+                android:onClick="Check" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/btn6"
+                android:textSize="30sp"
+                android:layout_weight="1"
+                android:layout_marginLeft="11dp"
+                android:onClick="Check" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/btn7"
+                android:textSize="30sp"
+                android:layout_weight="1"
+                android:onClick="Check" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/btn8"
+                android:textSize="30sp"
+                android:layout_weight="1"
+                android:layout_marginLeft="11dp"
+                android:onClick="Check" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/btn9"
+                android:textSize="30sp"
+                android:layout_weight="1"
+                android:layout_marginLeft="11dp"
+                android:onClick="Check" />
+        </LinearLayout>
+
+<!--    </LinearLayout>-->
+
+<!--    <GridLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:columnCount="3"-->
+<!--        android:rowCount="3">-->
+
+<!--&lt;!&ndash;        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/btn1"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:onClick="Check" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/btn2"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginLeft="11dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:onClick="Check" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/btn3"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginLeft="11dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:onClick="Check" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/btn4"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:onClick="Check" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/btn5"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginLeft="11dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:onClick="Check" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/btn6"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginLeft="11dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:onClick="Check" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/btn7"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:onClick="Check" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/btn8"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginLeft="11dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:onClick="Check" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/btn9"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginLeft="11dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:onClick="Check" />&ndash;&gt;-->
+
+
+<!--    </GridLayout>-->
+
+
+</LinearLayout>
